@@ -1,0 +1,26 @@
+<app-top-bar></app-top-bar>
+
+<div *ngIf="logged" class="logout">
+  <button (click)="logout()">Logout</button>
+</div>
+
+
+<div *ngIf="router.url === '/not-found'" class="not_found">
+  <app-not-found></app-not-found>
+</div>
+
+<div *ngIf="router.url !== '/not-found'">
+  <div *ngIf="!logged" class="main">
+    <div class="loginpart">
+      <h1>Login form</h1>
+      <br>
+      <input type="text" [(ngModel)]="username" placeholder="Username">
+      <input type="password" [(ngModel)]="password" placeholder="Password">
+      <button (click)="login()">Login</button>
+    </div>
+  </div>
+
+  <div *ngIf="logged" class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

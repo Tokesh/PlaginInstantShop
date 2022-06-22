@@ -1,0 +1,21 @@
+<h1>Product Detail</h1>
+<br>
+<h3>{{ product.name }}<br></h3>
+
+<div class="product">
+  <img src="/assets/images/{{product.filename}}" alt="{{product.filename}}">
+
+  <p>
+    {{ product.price | currency }} <br>
+      Description: {{ product.description }}
+  </p>
+  <button (click)="addToCart(product)" class="add_to_cart">Add To Cart</button>
+  <a [href] = "'https://telegram.me/share/url?url=' + 'http://localhost:4200/shops/' + shop_id + '/products/' + product_id">
+    <button type="button" (click)="share()" class="add_to_cart" id="share_butt">
+      Share
+    </button>
+  </a>
+</div>
+
+
+<button (click)="goBack()" class="go_back">Go Back</button>

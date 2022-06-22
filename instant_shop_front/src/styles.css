@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+app-root div{
+  margin: auto;
+  height: 100vh;
+}
+
+body{
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+app-products{
+  margin: 0 200px;
+}

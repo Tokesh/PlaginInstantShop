@@ -1,0 +1,36 @@
+<h1>Cart</h1>
+<br>
+
+<div class="purchase">
+
+  <p>Name: <input type="text" [(ngModel)]="name"></p>
+  <p>Address: <input type="text" [(ngModel)]="address"></p>
+  <p>Most comfortable time: <input type="text" [(ngModel)]="timecomf"></p>
+  <button (click)="onSubmit()">Purchase</button>
+</div>
+
+<div class="cart">
+  <div class="cart_list">
+    <div *ngFor="let product of products" class="products">
+        Name: {{ product.name }}<br>
+        Description: {{ product.description }}<br>
+        Price: {{ product.price | currency }}<br>
+        Count: {{ product.count }}
+        <button (click)="minusProduct(product)" class="minus" >-</button>
+        <button (click)="addProduct(product)" class="plus">+</button>
+        <button (click)="removeProduct(product)" class="remove">Remove from cart</button>
+    </div>
+  </div>
+</div>
+<button (click)="goBack()" class="go_back">Go Back</button>
+
+
+<!-- <div>
+    Name
+  <input type="text">
+</div>
+
+<div>
+    Address
+  <input type="text">
+</div> -->

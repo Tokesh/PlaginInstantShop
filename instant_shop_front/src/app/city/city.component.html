@@ -1,0 +1,16 @@
+<div class="all">
+  <div class="list">
+    <h1>Cities</h1>
+
+    <ul class="list_cities">
+        <li *ngFor="let city of cities" >
+            <a [routerLink]="['/cities', city.id]">
+                {{city.id}}. {{city.name}}
+            </a>
+        </li>
+    </ul>
+
+    <a [routerLink]="['/shops']">Show all shops<br></a>
+    <a [routerLink]="['/all_products']">Show all products</a>
+  </div>
+</div>

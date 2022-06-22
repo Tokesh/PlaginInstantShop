@@ -1,0 +1,20 @@
+.list_shops li::before{
+  content: '\1F3EA'; margin-left: -20px; margin-right: 10px;
+}
+
+.go_back{
+  color: #fff;
+  background-color: #69ab00;
+  border: none;
+  font-size: 15px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+  top: -21%;
+  right: -97%;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}

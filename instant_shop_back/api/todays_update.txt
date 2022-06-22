@@ -1,0 +1,16 @@
+Lactel 2,5%;Carefood;Milk;650
+Adal 2,5%;A-Store;Milk;656
+Domik v derevne 2,5%;A-Store;Milk;742
+Spaghetti Sultan 1,6 kg;Carefood;Grocery;1587
+Spiral Sultan 1,6 kg;A-Store;Grocery;1599
+Rice Astyq 800g;A-Store;Grocery;495
+Oat flakes "Hercules", King, 400 gr;A-Store;Grocery;466
+Sunflower oil Masterpiece 1 liter;Carefood;Grocery;1034
+Sunflower oil Masterpiece 5 liters;Carefood;Grocery;5168
+Wheat flour premium TESNA 5 kg;A-Store;Grocery;1839
+Wheat flour premium TESNA 10 kg;A-Store;Grocery;4083
+Coca-Cola 1 liter;Carefood;Drink;389
+PIALA| GOLD Kenyan granulated tea 500 gr.;A-Store;Tea;2289
+Mayonnaise Provencal 3 wishes 380 gr;Metro;Sauce;639
+Ketchup HEINZ Tomato, 1000g;Metro;Sauce;1103
+Eggs Kazger-Kus premium 10 pack;Carefood;Eggs;633

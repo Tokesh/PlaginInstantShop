@@ -1,0 +1,79 @@
+Lactel 2,5%
+A-Store: 638 
+Metro: 645   
+Carefood: 650
+
+Adal 2,5%
+A-Store: 656 
+Metro: 746   
+Carefood: 656
+
+Domik v derevne 2,5%
+A-Store: 742 
+Metro: 769   
+Carefood: 742
+
+Spaghetti Sultan 1,6 kg
+A-Store: 1599 
+Metro: 1765   
+Carefood: 1587
+
+Spiral Sultan 1,6 kg
+A-Store: 1599
+Metro: 1765
+Carefood: 9999999
+
+Rice Astyq 800g
+A-Store: 495
+Metro: 516
+Carefood: 9999999
+
+Oat flakes "Hercules", King, 400 gr
+A-Store: 466
+Metro: 493
+Carefood: 9999999
+
+Sunflower oil Masterpiece 1 liter
+A-Store: 9999999
+Metro: 9999999
+Carefood: 1034
+
+Sunflower oil Masterpiece 5 liters
+A-Store: 4738
+Metro: 9999999
+Carefood: 5168
+
+Wheat flour premium TESNA 5 kg
+A-Store: 1839
+Metro: 2414
+Carefood: 1908
+
+Wheat flour premium TESNA 10 kg
+A-Store: 4083
+Metro: 4829
+Carefood: 4244
+
+Coca-Cola 1 liter
+A-Store: 391
+Metro: 402
+Carefood: 389
+
+PIALA| GOLD Kenyan granulated tea 500 gr.
+A-Store: 2289
+Metro: 2302
+Carefood: 2358
+
+Mayonnaise Provencal 3 wishes 380 gr
+A-Store: 650
+Metro: 639
+Carefood: 684
+
+Ketchup HEINZ Tomato, 1000g
+A-Store: 2450
+Metro: 9999999
+Carefood: 2510
+
+Eggs Kazger-Kus premium 10 pack
+A-Store: 9999999
+Metro: 746
+Carefood: 633

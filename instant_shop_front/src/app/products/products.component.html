@@ -1,0 +1,36 @@
+<h1>Products</h1>
+
+
+<h4>Categories</h4>
+<div class="categories">
+  <button (click)="getProducts()" class="buttons">All</button>
+  <div *ngFor="let category of categories" class="buttons">
+      <button (click)="getProductsByCategory(category.id)" class="buttonss">{{ category.name }}</button>
+  </div>
+</div>
+
+<h6>Search
+  <input type="text" placeholder=" Enter Product Name" [(ngModel)]="nameFilter">
+</h6>
+
+<div class="productlist">
+  <div *ngFor="let product of products" class="products">
+      <div *ngIf="product.name.includes(nameFilter)" >
+          <img src="/assets/images/{{product.filename}}" alt="{{product.filename}}" width="100" height="120">
+          <a [routerLink]="[router.url, product.id]" class="description">
+              {{product.price}} KZT<br>
+              {{product.name}}<br>
+          </a>
+        <div *ngIf="product.count!=0" id="add_to_cart">
+
+          <button id="plusMain" (click)="plusCounter(product)">+</button>
+          <span id="countMain">Count:{{product.count}}<br></span>
+          <button id="minusMain" (click)="minusCounter(product)">-</button>
+        </div>
+
+          <button *ngIf="product.count ==0" (click)="addToCart(product)" class="add_to_cart">Add To Cart</button>
+      </div>
+  </div>
+</div>
+
+<button (click)="goBack()" class="go_back">Go Back</button>

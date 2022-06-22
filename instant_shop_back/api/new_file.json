@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Lactel 2,5%",
+    "shop": "Carefood",
+    "category": "Milk",
+    "price": 650
+  },
+  {
+    "name": "Adal 2,5%",
+    "shop": "A-Store",
+    "category": "Milk",
+    "price": 656
+  },
+  {
+    "name": "Domik v derevne 2,5%",
+    "shop": "A-Store",
+    "category": "Milk",
+    "price": 742
+  },
+  {
+    "name": "Spaghetti Sultan 1,6 kg",
+    "shop": "Carefood",
+    "category": "Grocery",
+    "price": 1587
+  },
+  {
+    "name": "Spiral Sultan 1,6 kg",
+    "shop": "A-Store",
+    "category": "Grocery",
+    "price": 1599
+  },
+  {
+    "name": "Rice Astyq 800g",
+    "shop": "A-Store",
+    "category": "Grocery",
+    "price": 495
+  },
+  {
+    "name": "Oat flakes \"Hercules\", King, 400 gr",
+    "shop": "A-Store",
+    "category": "Grocery",
+    "price": 466
+  },
+  {
+    "name": "Sunflower oil Masterpiece 1 liter",
+    "shop": "Carefood",
+    "category": "Grocery",
+    "price": 1034
+  },
+  {
+    "name": "Sunflower oil Masterpiece 5 liters",
+    "shop": "Carefood",
+    "category": "Grocery",
+    "price": 5168
+  },
+  {
+    "name": "Wheat flour premium TESNA 5 kg",
+    "shop": "A-Store",
+    "category": "Grocery",
+    "price": 1839
+  },
+  {
+    "name": "Wheat flour premium TESNA 10 kg",
+    "shop": "A-Store",
+    "category": "Grocery",
+    "price": 4083
+  },
+  {
+    "name": "Coca-Cola 1 liter",
+    "shop": "Carefood",
+    "category": "Drink",
+    "price": 389
+  },
+  {
+    "name": "PIALA| GOLD Kenyan granulated tea 500 gr.",
+    "shop": "A-Store",
+    "category": "Tea",
+    "price": 2289
+  },
+  {
+    "name": "Mayonnaise Provencal 3 wishes 380 gr",
+    "shop": "Metro",
+    "category": "Sauce",
+    "price": 639
+  },
+  {
+    "name": "Ketchup HEINZ Tomato, 1000g",
+    "shop": "Metro",
+    "category": "Sauce",
+    "price": 1103
+  },
+  {
+    "name": "Eggs Kazger-Kus premium 10 pack",
+    "shop": "Carefood",
+    "category": "Eggs",
+    "price": 633
+  }
+]
