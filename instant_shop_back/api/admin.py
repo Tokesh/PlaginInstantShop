@@ -4,6 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 # Register your models here.
 
 # New comment
+# Newest comment
 admin.site.register(Category)
 admin.site.register(Product)
 admin.site.register(Shop)
